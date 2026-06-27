@@ -39,7 +39,7 @@ jobs:
 
       - name: Build
         env:
-          VITE_API_URL: ${{ vars.VITE_API_URL || 'https://your-render-service.onrender.com/api' }}
+          VITE_API_URL: ${{ vars.VITE_API_URL || 'https://student-project-2-xrr8.onrender.com/api' }}
         run: npm run build
 
       - name: Upload artifact
